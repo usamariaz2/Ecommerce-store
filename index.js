@@ -116,4 +116,5 @@ function displaycart() {
 function removefromcart(index) {
   cart.splice(index, 1);
   displaycart();
+  updateTotalCartBtn();
 }
