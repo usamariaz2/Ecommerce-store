@@ -1,6 +1,7 @@
 # Ecommerce-store
 This is a responsive eCommerce store built using HTML, CSS, and JavaScript. It includes features such as a product gallery, shopping cart, checkout form, and more.
 
+## Live View : [Ecommerce-store](https://usamariaz2.github.io/Ecommerce-store/)
 # Getting Started
 To get started, simply clone or download this repository onto your local machine.
 
