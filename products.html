@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+
+</head>
+<body>
+    <nav class="top-nav">
+        <a href="./index.html" style="width: 30px;">
+         <img src="./images/logo.jpg" alt="logo">
+        </a> 
+      
+        <div class="search">
+         <input type="search" id="search-value" placeholder="Search here the product..." > 
+         <i class="fa-solid fa-search" id="search-btn"></i>
+     </div>
+ 
+         <ul class="topnav-ul">
+            <li><div class="vertical-line"></div></li>
+            <li id="amount">$ USD</li>
+            <li class="user-btn"> <a href="./myaccount.html"><i class="fa-solid fa-user"></i> My Account</a></li>
+            <li> <a href="./products.html"><button ><i class="fa fa-shopping-cart"></i> <span class="total-cart-btn">0</span></button></i></a></li>
+            <li><img src="./images/menu.png" class="menu-icon" onclick="menutoggle()" alt=""></li>
+             
+         </ul>
+     </nav>
+     <!-- bottom navbar -->
+     
+     <hr id="header-hr" style="margin: 13px;">
+ 
+     <nav class="nav-bottom">
+         <ul id="bottom-nav-bar">
+             <li><a href="./index.html">Home</a></li>
+             <li><a href="./products.html">Shop<i class="fa-solid fa-angle-down"></i></a></li>
+             <li><a href="">About us</a></li>
+             <li><a href="">Contact us</a></li>
+             <li><a href="">Blog</a></li>
+          <li class="bottom-nav-button"> <a href="./myaccount.html"><i class="fa-solid fa-user"></i> My Account</a></li>
+ 
+         </ul>
+         <!-- <i class="fab fa-twitter"></i> -->
+     </nav>
+ <h4 class="cart-message"></h4>
+
+ <div class="container-top">
+    <h1>All New Products </h1>
+    <hr class="hr">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, vero?</p>
+  </div>
+<div class="Products">
+    <div class="product">
+     <div id="root"></div>
+     <div id="root1"></div>
+     <div id="root2"></div>
+     <div id="root3"></div>
+    </div>
+    <div class="cart"> 
+        <div class="head"> <h1>My Cart</h1></div>
+        <div id="cartitem"><p>Your Cart is empty</p></div>
+        <hr>
+        <div class="cart-foot">
+            <h3>Total :</h3>
+            <h2 id="totalcount">$ 0.00</h2>
+        </div>
+    </div>
+    </div>
+
+     <!-- footer -->
+     <footer>
+        <div class="footer">
+        <div class="sitedetails">
+            <h1>Ecomerce</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h3>Follow us</h3>
+            <div class="socialicons">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="pages sitedetails">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./cart.html">Cart</a></li>
+                <li><a href="./myaccount.html">Profile</a></li>
+            </ul>
+        </div>
+        <div class="featured sitedetails">
+            <h2>Products</h2>
+           <ul>
+            <li><a href="">Laptop</a></li>
+                <li><a href="">watch</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">Profile</a></li>
+           </ul> 
+        </div>
+    </div>
+    <hr>
+   <p class="copyright">All Right Reserved- UsamaCommerce.com</p>
+    </footer>
+  
+    <script src="index.js"></script>
+</body>
+</html>

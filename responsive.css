@@ -1,0 +1,130 @@
+@media (max-width:800px){
+    .search,.vertical-line,#header-hr,#amount{
+        display: none;
+    }
+    .mainleft{
+        width: 100%;
+        justify-content: center;
+    justify-items: center;
+    }
+    .policy{
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 34px;
+    }
+    .policie-list{
+        width: 100%;
+        padding: 12px;
+        background-color: red;
+    }
+    .container ,.covers,.features{
+        padding: 0px;
+    }
+    .newcollection{
+        display: none;
+    }
+    #root{
+        margin: 0px;
+    }
+    #root2{
+    grid-template-columns: repeat(4,auto);
+    }
+    .box{
+        padding: 13px 5px;
+        width: 100%;
+        text-align: center;
+    }
+    .fullset-right{
+        width: 100%;
+    }
+    .Products{
+      padding: 0px; 
+      justify-content: normal;
+      flex-wrap: wrap-reverse;
+    }
+    .product{
+        width: 100%;
+        padding: 12px 38px;
+    }
+    .cart{
+        width: 100%;
+    }
+
+}
+
+@media (max-width:460px){
+
+    .bottom-nav-button{
+        display: block;
+    }
+    .user-btn{
+        display: none;
+    }
+    .nav-bottom ul {
+        display: block;
+        overflow: hidden;
+        text-align: right;
+        padding: 0px 10px;
+        height: 0px;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        z-index: 1;
+        width: 100%;
+    background-color: whitesmoke;
+ border-radius: 0px 0px 10px 10px;
+        transition: height 0.5s;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .mainimgs{
+        width: 310px;
+    }
+    #root,#root1,#root2,#root3{
+        grid-template-columns: auto;
+        }
+        .fullset,.fullset-left{
+            padding: 12px 21px;
+        }
+        
+        .fullset-left img {
+            width: 270px;
+        }
+
+        .footer a , h1,h2 , p{
+            font-size: 12px;
+        }
+        
+        .submit button {
+    padding: 2px 18px;
+}
+.account-main{
+    min-height: 180vh;
+}
+.account-left{
+    display: none;
+}
+    /*  */
+    .policy{
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 34px;
+    }
+    .policie-list{
+        width: 100%;
+        padding: 12px;
+        background-color: red;
+    }
+
+    .Products{
+      padding: 0px; 
+      justify-content: normal; 
+    }
+    .product{
+        width: 100%;
+    }
+    .cart{
+        width: 100%;
+    }
+
+}
+

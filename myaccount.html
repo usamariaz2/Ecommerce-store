@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+
+</head>
+<body>
+    <nav class="top-nav">
+        <a href="./index.html" style="width: 30px;">
+         <img src="./images/logo.jpg" alt="logo">
+        </a> 
+      
+        <div class="search">
+         <input type="search" id="search-value" placeholder="Search here the product..." > 
+         <i class="fa-solid fa-search" id="search-btn"></i>
+     </div>
+ 
+         <ul class="topnav-ul">
+            <li><div class="vertical-line"></div></li>
+            <li id="amount">$ USD</li>
+            <li class="user-btn"> <a href="./myaccount.html"><i class="fa-solid fa-user"></i> My Account</a></li>
+            <li> <a href="./products.html"><button ><i class="fa fa-shopping-cart"></i> <span class="total-cart-btn">0</span></button></i></a></li>
+            <li><img src="./images/menu.png" class="menu-icon" onclick="menutoggle()" alt=""></li>
+             
+         </ul>
+     </nav>
+     <!-- bottom navbar -->
+     
+     <hr id="header-hr" style="margin: 13px;">
+ 
+     <nav class="nav-bottom">
+         <ul id="bottom-nav-bar">
+             <li><a href="./index.html">Home</a></li>
+             <li><a href="./products.html">Shop<i class="fa-solid fa-angle-down"></i></a></li>
+             <li><a href="">About us</a></li>
+             <li><a href="">Contact us</a></li>
+             <li><a href="">Blog</a></li>
+          <li class="bottom-nav-button"> <a href="./myaccount.html"><i class="fa-solid fa-user"></i> My Account</a></li>
+ 
+         </ul>
+         <!-- <i class="fab fa-twitter"></i> -->
+     </nav>
+<!-- form -->
+<div class ="account-main">
+    <div class="account-left">
+        <img src="./images/1.png" alt="">
+    </div>
+
+    <div class="form-container">
+        <div class="auth-btn">
+            <button id="login-btn">Login </button>
+            <button id="signup-btn" class="active">Signup</button>
+        </div>
+        <div class="form-area">
+            <form action="" id="login-form">
+                <input type="text" placeholder="@usamariaz">
+                <input type="password" placeholder="password">
+                <button>Login</button>
+                <p>FORGET PASSWORD</p>
+            </form>
+            <!--  -->
+            <form action="" id="signup-form">
+                <input type="text" placeholder="Your Username">
+                <input type="email" placeholder="Enter Your Email">
+                <input type="password" placeholder="password">
+                <button>Register</button>
+            </form>
+
+        </div>
+     </div>
+
+    </div>
+
+
+     <!-- footer -->
+     <footer>
+        <div class="footer">
+        <div class="sitedetails">
+            <h1>Ecomerce</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h3>Follow us</h3>
+            <div class="socialicons">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="pages sitedetails">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./cart.html">Cart</a></li>
+                <li><a href="./myaccount.html">Profile</a></li>
+            </ul>
+        </div>
+        <div class="featured sitedetails">
+            <h2>Products</h2>
+           <ul>
+            <li><a href="">Laptop</a></li>
+                <li><a href="">watch</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">Profile</a></li>
+           </ul> 
+        </div>
+    </div>
+    <hr>
+   <p class="copyright">All Right Reserved- UsamaCommerce.com</p>
+    </footer>
+    <script>
+        let login_btn=document.getElementById('login-btn');
+        let signup_btn=document.getElementById('signup-btn');
+        let login_form=document.getElementById('login-form');
+        let signup_form=document.getElementById('signup-form');
+        login_btn.addEventListener('click',()=>{
+            signup_form.style.transform='translatex(-264px)';
+            login_form.style.right='auto';
+            login_btn.classList.add('active');
+            signup_btn.classList.remove('active');
+
+        });
+        signup_btn.addEventListener('click',()=>{
+            signup_form.style.transform='translatex(0)';
+            login_form.style.right='-258px';
+            signup_btn.classList.add('active');
+            login_btn.classList.remove('active');
+
+        });
+    </script>
+    <!-- <script src="index.js"></script> -->
+    
+</body>
+</html>

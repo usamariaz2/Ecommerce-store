@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecomerce Store</title>
+<link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+
+</head>
+<body>
+    <nav class="top-nav">
+       <a href="./index.html" style="width: 30px;">
+        <img src="./images/logo.jpg" alt="logo">
+       </a> 
+     
+       <div class="search">
+        <input type="search" id="search-value" placeholder="Search here the product..." > 
+        <i class="fa-solid fa-search" id="search-btn"></i>
+    </div>
+
+        <ul class="topnav-ul">
+           <li><div class="vertical-line"></div></li>
+           <li id="amount">$ USD</li>
+           <li class="user-btn"> <a href="./myaccount.html"><i class="fa-solid fa-user"></i> My Account</a></li>
+           <li> <a href="./products.html"><button ><i class="fa fa-shopping-cart"></i> <span class="total-cart-btn">0</span></button></i></a></li>
+            <li><img src="./images/menu.png" class="menu-icon" onclick="menutoggle()" alt=""></li>
+            
+        </ul>
+    </nav>
+    <!-- bottom navbar -->
+    
+    <hr id="header-hr" style="margin: 13px;">
+
+    <nav class="nav-bottom">
+        <ul id="bottom-nav-bar">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./products.html">Shop<i class="fa-solid fa-angle-down"></i></a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Blog</a></li>
+         <li class="bottom-nav-button"> <a href="./myaccount.html"><i class="fa-solid fa-user"></i> My Account</a></li>
+
+        </ul>
+        <!-- <i class="fab fa-twitter"></i> -->
+    </nav>
+    <h4 class="cart-message"></h4>
+    <main>
+ <p class="message" style="position: absolute; float: right;"></p>
+
+      <div class="hero-section">
+        <div class="mainleft">
+            <h1>Laptop Shop</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, pariatur!</p>
+            <button>Order Now</button>
+        </div>
+        <div class="mainright">
+            <img class="mainimgs" src="./images/1.png" alt="">
+        </div>
+      </div>
+      <!-- policys -->
+      <div class="policy">
+        <div class="policie-list">
+            <i class="fa-solid fa-truck"></i>
+            <div class="policie-name">
+                <h1>14-DAYS MINCY BACK</h1>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+        </div>
+        <div class="policie-list">
+            <i class="fa-solid fa-home"></i>
+            <div class="policie-name">
+                <h1>Free Delivery and Collect</h1>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+        </div>
+        <div class="policie-list">
+            <i class="fa-solid fa-flag"></i>
+            <div class="policie-name">
+                <!-- <i class="fa-solid fa-box"></i> -->
+                <h1>INTERNATIONAL SNIPPINS</h1>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+        </div>
+        <div class="policie-list">
+            <i class="fa-solid fa-rotate"></i>
+            <div class="policie-name">
+                <h1>365 DAYS RETURN</h1>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+        </div>
+      </div>
+
+      <!-- 1st collect list -->
+      <div class="container-top">
+        <h1>New Arrivals </h1>
+        <hr class="hr">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, vero?</p>
+      </div>
+        <div class="container">
+            <div class="newcollection" style="margin-left: 0px;">
+                <h1>Product name</h1>
+                <p>lorem5</p>
+                <button>Order Now</button>
+            </div>
+            <div id="root"></div>
+            
+        </div> 
+        <div class="covers-heading">
+            <h1>Laptop Covers</h1>
+            <hr class="hr">
+        </div>
+        <div class="covers">
+            <div id="root2"> </div>
+            <div class="newcollection">
+                    <h1>Product name</h1>
+                    <p>lorem5</p>
+                    <button>Order Now</button>
+                </div>
+            </div>
+    </main>
+                                            <!-- full set -->
+    <div class="fullset">
+        <div class="fullset-left">
+            <img src="./images/top.jpg" alt="">
+        </div>
+        <div class="fullset-right">
+            <h3>Super sale Enjoy 20% off</h3>
+            <h1>All Collection</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nesciunt culpa atque at similique iusto odit ad et laudantium quam.</p>
+            <button value="" style="width: 120px;">Order now</button>
+        </div>
+    </div>
+                                    <!-- Features section -->
+    <div class="feature-heading">
+        <h1>Features<hr class="hr"></h1>
+        
+        <div class="feature-btn"> 
+            <button>Best Seller</button>
+            <button>Top Rated</button>
+        </div>
+    </div>
+    <div class="features">
+        <div id="root1"></div>
+        <div id="root3"></div>
+    </div>
+
+                          <!-- Emails sections -->
+
+    <div class="email-update">
+        <div class="email-left">
+         <i class="fa-solid fa-envelope"></i>
+        <div>
+        <h1>GET UPDATE</h1>
+        <P>Subscribe our newslater for daily updates</P>
+        </div>
+    </div>
+    <div class="submit">
+        <input type="email" name="" id="email-news" placeholder="ecommerce@gmail.com">
+        <button>submit</button>
+    </div>
+    </div>
+
+    <!-- Footer section -->
+
+    <footer>
+        <div class="footer">
+        <div class="sitedetails">
+            <h1>Ecomerce</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <h3>Follow us</h3>
+            <div class="socialicons">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="pages sitedetails">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./cart.html">Cart</a></li>
+                <li><a href="./myaccount.html">Profile</a></li>
+            </ul>
+        </div>
+        <div class="featured sitedetails">
+            <h2>Products</h2>
+           <ul>
+            <li><a href="">Laptop</a></li>
+                <li><a href="">watch</a></li>
+                <li><a href="">Cart</a></li>
+                <li><a href="">Profile</a></li>
+           </ul> 
+        </div>
+    </div>
+    <hr>
+   <p class="copyright">All Right Reserved- UsamaCommerce.com</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
